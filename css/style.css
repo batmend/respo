@@ -16203,3 +16203,12 @@ footer {
     background: transparent; }
 
 /*# sourceMappingURL=style.css.map */
+
+.cs-text {
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
+
+.cs-title {
+  font-family: 'Times New Roman', Times, serif;
+}

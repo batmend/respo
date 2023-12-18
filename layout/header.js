@@ -41,7 +41,7 @@ function Header() {
                                 <Link href="/"><a><img src="images/logo.png" alt=""/></a></Link>
                             </div>
                             <ul className="nav navbar-nav navbar">	
-                                <li><Link href="/"><a>Home</a></Link></li>
+                                <li><Link href="/"><a>Нүүр</a></Link></li>
                                 <li className={`${open === "about" ? "open" : ""}`}><a  onClick={() => setOpen("about")}><span>Pages</span><i className="fa fa-chevron-down"></i></a>
                                     <ul className="sub-menu">
                                         <li><Link href="/about-us-1"><a>About Us</a></Link></li>

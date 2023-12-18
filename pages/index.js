@@ -15,15 +15,18 @@ import Quote from "../element/quote";
 import Cta from "../element/cta";
 import Footer from "../layout/footer";
 import Header from "../layout/header";
+import ComingSoon from "./coming-soon";
 function Home() {
   useEffect(() => {
     document.querySelector("body").setAttribute("color", "color_1");
   }, []);
   return (
     <>
+     { /*
 	<Header />
 	  <div className="page-content bg-white" id="top">
-        <Slider1 />
+   
+     <Slider1 />
         <Clients />
         <Counter />
         <Service />
@@ -37,10 +40,15 @@ function Home() {
         <Blog />
         <Quote />
         <Cta />
-	  { /* 
-	  */}
+  
+	  
       </div>
-	  <Footer />
+      */}
+	
+    <ComingSoon />
+    { /*
+    <Footer />
+  */}
     </>
   );
 }
